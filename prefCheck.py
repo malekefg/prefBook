@@ -11,7 +11,7 @@ from email.mime.multipart import MIMEMultipart
 
 def main():
 
-        url_B ='http://www.seine-saint-denis.gouv.fr/booking/create/1194/0'
+        url_B ='Mettre le site de la pref. que vous souhaitez y réserver ex : http://www.seine-saint-denis.gouv.fr/booking/create/1194/0'
 
         s='existe plus de plage horaire libre pour votre demande de rendez-vous. Veuillez recommencer'
         headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
