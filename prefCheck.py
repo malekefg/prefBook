@@ -39,11 +39,11 @@ def main():
                                 f.close()
                         else :
                                 try:
-                                        _FROM = 'abdelmalik.boufar@gmail.com'
-                                        _TO = 'abdelmalik.boufar@hotmail.fr'
+                                        _FROM = 'from@email.com'
+                                        _TO = 'to@email.com'
                                         gmail_user=_FROM
-                                        gmail_password='bismillah181289'
-                                        gmail_smtp='smtp.gmail.com'
+                                        gmail_password='passwd'
+                                        gmail_smtp='smtp.email.com'
                                         server = smtplib.SMTP_SSL(gmail_smtp, 465)
                                         server.ehlo()
                                         server.login(gmail_user, gmail_password)
